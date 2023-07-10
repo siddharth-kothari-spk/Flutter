@@ -10,7 +10,7 @@ void main() {
           backgroundColor: Colors.lime,
           body: const Center(
             child: Image(
-              image: NetworkImage('https://picsum.photos/300/300'),
+              image: AssetImage('images/diamond.png'),
             ),
           )),
     ),
