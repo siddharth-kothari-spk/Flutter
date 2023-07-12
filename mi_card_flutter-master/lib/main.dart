@@ -19,6 +19,13 @@ class MyApp extends StatelessWidget {
               radius: 50.0,
               backgroundColor: Colors.indigoAccent,
               backgroundImage: AssetImage('images/sid.png'),
+            ),
+            Text(
+              'Siddharth Kothari',
+              style: TextStyle(
+                  fontSize: 20.0,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.indigo),
             )
           ],
         )),
