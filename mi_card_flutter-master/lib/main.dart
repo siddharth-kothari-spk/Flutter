@@ -19,7 +19,8 @@ class MyApp extends StatelessWidget {
             height: 100,
             width: 200,
             margin: EdgeInsets.fromLTRB(
-                10, 10, 10, 10), // offset from edges of screen
+                10, 10, 10, 10), // offset from edges of screen,
+            padding: EdgeInsets.only(left: 10),
           ),
         ),
       ),
