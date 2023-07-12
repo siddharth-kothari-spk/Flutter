@@ -18,6 +18,8 @@ class MyApp extends StatelessWidget {
             child: Text("child inside Container"),
             height: 100,
             width: 200,
+            margin: EdgeInsets.fromLTRB(
+                10, 10, 10, 10), // offset from edges of screen
           ),
         ),
       ),
