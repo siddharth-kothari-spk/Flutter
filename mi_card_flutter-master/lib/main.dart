@@ -37,10 +37,10 @@ class MyApp extends StatelessWidget {
                   fontFamily: 'Source Sans 3',
                   letterSpacing: 2),
             ),
-            Container(
+            Card(
               color: Colors.white,
               margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
-              padding: EdgeInsets.fromLTRB(20, 10, 20, 10),
+              // padding: EdgeInsets.fromLTRB(20, 10, 20, 10),
               child: Row(
                 children: [
                   Icon(
@@ -60,10 +60,10 @@ class MyApp extends StatelessWidget {
                 ],
               ),
             ),
-            Container(
+            Card(
               color: Colors.white,
               margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
-              padding: EdgeInsets.fromLTRB(20, 10, 20, 10),
+              // padding: EdgeInsets.fromLTRB(20, 10, 20, 10),
               child: Row(
                 children: [
                   Icon(
