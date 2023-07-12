@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.tealAccent,
         body: SafeArea(
           child: Column(
+            verticalDirection: VerticalDirection.up,
             children: [
               Container(
                 color: Colors.redAccent,
