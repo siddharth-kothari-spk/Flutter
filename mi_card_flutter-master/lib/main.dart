@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
           child: Column(
             verticalDirection: VerticalDirection.down,
             mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.end,
             children: [
               Container(
                 color: Colors.redAccent,
