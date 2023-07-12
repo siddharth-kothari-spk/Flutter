@@ -17,22 +17,44 @@ class MyApp extends StatelessWidget {
             children: [
               Container(
                 color: Colors.redAccent,
-                child: Text("child1"),
+                child: Text("column child1"),
                 height: 100,
-                width: 200,
+                width: 100,
                 margin: EdgeInsets.fromLTRB(
                     10, 10, 10, 10), // offset from edges of screen,
                 padding: EdgeInsets.only(left: 10, top: 10),
               ),
               Container(
                 color: Colors.blueAccent,
-                child: Text("child2"),
+                child: Text("column child2"),
                 height: 100,
-                width: 200,
+                width: 100,
                 margin: EdgeInsets.fromLTRB(
                     10, 10, 10, 10), // offset from edges of screen,
                 padding: EdgeInsets.only(left: 10, top: 10),
               ),
+              Row(
+                children: [
+                  Container(
+                    color: Colors.greenAccent,
+                    child: Text("row child1"),
+                    height: 100,
+                    width: 100,
+                    margin: EdgeInsets.fromLTRB(
+                        10, 10, 10, 10), // offset from edges of screen,
+                    padding: EdgeInsets.only(left: 10, top: 10),
+                  ),
+                  Container(
+                    color: Colors.amberAccent,
+                    child: Text("row child2"),
+                    height: 100,
+                    width: 100,
+                    margin: EdgeInsets.fromLTRB(
+                        10, 10, 10, 10), // offset from edges of screen,
+                    padding: EdgeInsets.only(left: 10, top: 10),
+                  ),
+                ],
+              )
             ],
           ),
         ),
